@@ -24,7 +24,7 @@ const autoprefixer = require('gulp-autoprefixer')
 
 const root = yargs.argv.root || '.'
 const port = yargs.argv.port || 8000
-const host = yargs.argv.host || 'localhost'
+const host = yargs.argv.host || '192.168.63.143'
 
 const banner = `/*!
 * reveal.js ${pkg.version}
