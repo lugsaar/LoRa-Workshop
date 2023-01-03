@@ -379,9 +379,25 @@ section.has-light-background, section.has-light-background h1, section.has-light
   display: grid;
   grid-template-columns: 480px auto;
   grid-template-rows: 480px;
-  grid-gap: 20px;
+  column-gap: 20px;
   text-align: left;
   align-items: center;
+}
+
+.reveal .twocolumn-center-element {
+  display: grid;
+  grid-template-columns: 480px auto;
+  grid-template-rows: auto auto;
+  column-gap: 20px;
+  row-gap: 0px;
+  text-align: left;
+  align-items: center;
+}
+
+.reveal .grid-center-element {
+  text-align: center;
+  grid-column-start: 1; 
+  grid-column-end: 3; 
 }
 
 /*********************************************
