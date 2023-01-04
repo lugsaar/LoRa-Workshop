@@ -75,10 +75,42 @@
 				</section>
 
 				<section class="custom-slide-background-image">
+					<h3>The Things Network (TTN) – Aufbau</h3>
+					<br>
+					<div class="twocolumn66">
+						<div>
+							<img data-src="images/TTN_Aufbau_transparent.png" alt="TTN Aufbau"  style="width: 100%; background: transparent;">
+						</div>
+						<div>
+							<tiny>
+								<ul>
+									<li>Device - LoRaWAN-fähiges Gerät, das für die Over The Air Activation (OTAA) und/oder 
+										Activation By Personalisation (ABP) in Betrieb genommen wird</li>
+									<li>Gateway - LoRa-Nachrichten empfangen und sie an den Router weiterleiten, unter der 
+										Nutzung eines sicheren und fernkonfigurierbaren Packet Forwarder</li>
+									<li>Router - Microservice, der Nachrichten vom Gateway empfängt und  diese Nachrichten an 
+										einen Broker weiterleitet</li>
+									<li>Broker - Microservice, der ein Gerät identifiziert, dessen Datenverkehr dedupliziert
+										und die Pakete an einen Handler weiterleitet</li>
+									<li>Handler - Mikrodienst, der die  Nutzdaten verschlüsselt und entschlüsselt und sie an 
+										Nachrichtenbroker zur Verwendung durch Anwendungen weiterleitet</li>
+									<li>Anwendung - Ein Stück Software, das auf einem Server läuft und einige Aufgaben für 
+										den Endbenutzer ausführt</li>
+								</ul>
+							</tiny>							
+						</div>
+
+
+
+					</div>
+				</section>
+				
+
+				<section class="custom-slide-background-image">
 					<h3>Definition sowie Grundbegriff LoRa</h3>
 					<br>
 					<small>
-						<div class="twocolumn" >
+						<div class="twocolumn33" >
 							<div>								
 								<img data-src="images/raspi_lora_hat.png" alt="RaspberryPi LoRa-Hat"  style="width: 100%; background: transparent;">
 							</div>
@@ -97,7 +129,7 @@
 										<ul>
 											<li>433,05 – 434,79 MHz (ISM-Band Region 1, Schweiz)</li>
 											<li>863 – 870 MHz (SRD-Band Europa)</li>
-											<li>902 – 928 MHz (ISM-Band Region2, Bordamerika)</li>
+											<li>902 – 928 MHz (ISM-Band Region2, Nordamerika)</li>
 										</ul>
 									</li>
 								</ul>    
@@ -110,7 +142,7 @@
 					<h3>Warum ausgerechnet LoRaWAN?</h3>
 					<br>
 					<small>
-						<div class="twocolumn">
+						<div class="twocolumn33">
 							<div>
 								<img data-src="images/LoRaWAN_funny_1.png" alt="Why LoRaWAN"  style="width: 100%; background: transparent;">
 							</div>
@@ -140,7 +172,7 @@
 					<h3>Erfahrung mit LoRa Sensor Nodes</h3>
 					<br>
 					<small>
-						<div class="twocolumn">
+						<div class="twocolumn33">
 							<div>
 								<img data-src="images/LoRaWAN_funny_2.png" alt="Why LoRaWAN"  style="width: 90%; background: transparent;">
 							</div>

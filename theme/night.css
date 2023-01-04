@@ -375,9 +375,18 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 }
 
-.reveal .twocolumn {
+.reveal .twocolumn33 {
   display: grid;
   grid-template-columns: 480px auto;
+  grid-template-rows: 480px;
+  column-gap: 20px;
+  text-align: left;
+  align-items: center;
+}
+
+.reveal .twocolumn66 {
+  display: grid;
+  grid-template-columns: 66% auto;
   grid-template-rows: 480px;
   column-gap: 20px;
   text-align: left;
@@ -398,6 +407,17 @@ section.has-light-background, section.has-light-background h1, section.has-light
   text-align: center;
   grid-column-start: 1; 
   grid-column-end: 3; 
+}
+
+.reveal tiny {
+  display: inline-block;
+  font-size: 0.5em;
+  line-height: 1.3em;
+  vertical-align: top;
+}
+
+.reveal tiny * {
+  vertical-align: top;
 }
 
 /*********************************************
