@@ -1,5 +1,5 @@
 {
-  "name": "LoRaWAN-Workshop",
+  "name": "LoRaWorkshop",
   "scripts": {
     "test": "gulp test",
     "start": "gulp serve",
