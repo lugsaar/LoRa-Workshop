@@ -89,8 +89,5 @@
       "no-eq-null": 2,
       "no-unused-expressions": 0
     }
-  },
-  "dependencies": {
-    "reveal.js": "^4.4.0"
   }
 }
