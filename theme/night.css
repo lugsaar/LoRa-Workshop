@@ -358,7 +358,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   align-items: center;
   background-position: center;
   background-size: cover;
-  background-image: url("../../images/starting_image.jpg");
+  background-image: url("../images/starting_image.jpg");
 }
 
 .custom-title-background:not(section){
@@ -371,7 +371,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   align-items: center;
   background-position: center;
   background-size: cover;
-	background-image: linear-gradient( 0deg,rgba(0, 0, 0, 0.90),rgba(0,0,0,0.90)) , url("../../images/starting_image.jpg");
+	background-image: linear-gradient( 0deg,rgba(0, 0, 0, 0.90),rgba(0,0,0,0.90)) , url("../images/starting_image.jpg");
 
 }
 
